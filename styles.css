@@ -1262,6 +1262,15 @@ html {
     font-style: italic;
 }
 
+/* Additional rules for better specificity */
+.meta {
+    color: #bfb8aa !important; /* Pale Beige for better visibility */
+}
+
+.price {
+    color: #bfb8aa !important; /* Pale Beige for better visibility */
+}
+
 .loading-placeholder,
 .error-message {
     grid-column: 1 / -1; /* Span full width if grid is active */
