@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkhurst Home - Lunah Lyla Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #bfb8aa; /* Pale Beige */
+            color: #26170f; /* Darkest Brown */
+        }
+        .project-gallery-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .project-gallery-container h1 {
+            font-family: 'Playfair Display', serif;
+            color: #26170f;
+            margin-bottom: 30px;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Changed to 2-column grid */
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 3px;
+            box-shadow: 0 5px 15px rgba(38, 23, 15, 0.1);
+            display: block; /* Ensure image behaves as a block element */
+        }
+        .image-gallery img:nth-child(1) {
+            grid-column: 1 / span 2; /* First image spans 2 columns */
+        }
+        /* Images 2 and 3 will naturally flow into the 2 columns */
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #737153;
+            color: #bfb8aa;
+            text-decoration: none;
+            border-radius: 2px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .back-link:hover {
+            background-color: #593f28;
+        }
+        /* Basic Nav styling if copied from index.html */
+        .navbar {
+            position: static; /* Override fixed position for project pages */
+            background: #bfb8aa;
+            backdrop-filter: none;
+            box-shadow: none;
+            border-bottom: 1px solid #8c775E;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Lunah Lyla Studio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="shop.html" class="nav-link">Shop</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="project-gallery-container">
+        <h1>Parkhurst Home</h1>
+        <div class="image-gallery">
+            <img src="parkhurt home/parkhurst home 1.jpg" alt="Parkhurst Home Image 1">
+            <img src="parkhurt home/parkhurst home 2.jpg" alt="Parkhurst Home Image 2">
+            <img src="parkhurt home/parkhurst home 3.jpg" alt="Parkhurst Home Image 3">
+        </div>
+        <a href="index.html" class="back-link">Back to Projects</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "furn001",
+    "name": "Modern Velvet Armchair",
+    "category": "furniture",
+    "price": "R4500",
+    "description": "A luxurious modern armchair upholstered in rich velvet, perfect for a statement piece.",
+    "imageUrl": "images/furniture/modern-velvet-armchair.jpg",
+    "dimensions": "80cm x 75cm x 90cm (H x W x D)",
+    "material": "Velvet, Wood"
+  },
+  {
+    "id": "furn002",
+    "name": "Minimalist Oak Coffee Table",
+    "category": "furniture",
+    "price": "R2800",
+    "description": "Sleek and simple coffee table crafted from solid oak, embodying minimalist design.",
+    "imageUrl": "images/furniture/minimalist-oak-table.jpg",
+    "dimensions": "40cm x 110cm x 60cm (H x W x D)",
+    "material": "Solid Oak"
+  },
+  {
+    "id": "art001",
+    "name": "Abstract Cityscape Canvas",
+    "category": "art",
+    "price": "R1850",
+    "description": "A vibrant and dynamic abstract painting depicting a cityscape, printed on high-quality canvas.",
+    "imageUrl": "images/art/abstract-cityscape-canvas.jpg",
+    "size": "90cm x 60cm",
+    "medium": "Canvas Print"
+  },
+  {
+    "id": "art002",
+    "name": "Serene Landscape Print",
+    "category": "art",
+    "price": "R1200",
+    "description": "A calming framed print of a serene landscape, bringing tranquility to any room.",
+    "imageUrl": "images/art/serene-landscape-print.jpg",
+    "size": "70cm x 50cm (including frame)",
+    "medium": "Framed Print"
+  },
+  {
+    "id": "cush001",
+    "name": "Geometric Pattern Cushion",
+    "category": "cushions",
+    "price": "R450",
+    "description": "Stylish cushion with a bold geometric pattern, includes a plush inner.",
+    "imageUrl": "images/cushions/geometric-pattern-cushion.jpg",
+    "size": "45cm x 45cm",
+    "material": "Cotton Blend, Polyester Fill"
+  },
+  {
+    "id": "cush002",
+    "name": "Textured Linen Cushion",
+    "category": "cushions",
+    "price": "R520",
+    "description": "Elegant textured linen cushion in a neutral tone, adding subtle sophistication.",
+    "imageUrl": "images/cushions/textured-linen-cushion.jpg",
+    "size": "50cm x 50cm",
+    "material": "Linen, Feather Fill"
+  }
+]
