@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shop the Lunah Lyla Studio collection - unique pieces of furniture, art, and decor curated for the emotive home.">
+    <title>Shop | Lunah Lyla Studio</title>
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" role="navigation" aria-label="Main Navigation">
+        <div class="nav-container container">
+            <a href="index.html#home" class="logo" aria-label="Lunah Lyla Studio Home">
+                <h1>Lunah Lyla Studio</h1>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="shop.html" class="nav-link active">Shop</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="nav-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="shop-intro" class="container animate-on-scroll">
+            <h1>Our Collection</h1>
+            <p class="lead">Discover unique pieces of furniture, art, and decor curated by Nondumiso to elevate your
+                emotive environment.</p>
+        </section>
+
+        <section id="product-filters" class="container animate-on-scroll">
+            <h2>Filter by Category</h2>
+            <div class="filter-group">
+                <button data-category="all" class="filter-btn active" aria-label="Show all products">All</button>
+                <button data-category="furniture" class="filter-btn" aria-label="Filter by furniture">Furniture</button>
+                <button data-category="art" class="filter-btn" aria-label="Filter by art">Art</button>
+                <button data-category="cushions" class="filter-btn" aria-label="Filter by cushions">Cushions</button>
+            </div>
+        </section>
+
+        <section id="product-grid" class="container">
+            <!-- Products will be dynamically loaded here by JavaScript -->
+            <div class="loading-placeholder animate-on-scroll">Refining the selection...</div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section animate-on-scroll">
+                    <h3>Lunah Lyla Studio</h3>
+                    <p>Creating emotive environments through innovative and sustainable design solutions. Experience
+                        luxury reimagined.</p>
+                </div>
+                <div class="footer-section animate-on-scroll stagger-1">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Project Management</a></li>
+                        <li><a href="index.html#services">Interior Design</a></li>
+                        <li><a href="index.html#services">Architectural Services</a></li>
+                        <li><a href="index.html#services">Property Finishing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section animate-on-scroll stagger-2">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#projects">Work</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lunah Lyla Studio. All rights reserved. Designed with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
